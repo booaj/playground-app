@@ -1,0 +1,44 @@
+.carcardcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cardbody {
+  width: 20%;
+  height: 400px;
+  margin: 1% 1% 1% 1%;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.cardtitle {
+  padding-top: 5px;
+  font-family: sans-serif;
+  font-weight: 200;
+  text-align: center;
+  color: black
+}
+
+.cardmainimage {
+  padding: 20px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+//------------------------------------------------
+
+.auditContainer {
+  background-color: white;
+  color: black;
+}
